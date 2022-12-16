@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    
+    <table> 
+      <tr>
+        <td>
+          <form onsubmit="event.preventDefault();onSubmit();">
+            <div>
+              <h3>Js - Part1</h3>
+            </div>
+            <div>
+              <label>ID*</label>
+              <input type="text" name="id" id="id" />
+            </div>
+            <div>
+              <label>TEAM</label>
+              <input type="text" name="team" id="team" />
+            </div>
+            <div>
+              <label>TITLE</label>
+              <input type="text" name="title" id="title" />
+            </div>
+            <div>
+              <label>BRANCH</label>
+              <input type="text" name="branch" id="branch" />
+            </div>
+            <div>
+              <input type="submit" value="Save" style="color: red;" />
+            </div>
+          </form>
+        </td>
+      </tr>
+    </table>
+      <td class="bt">
+        <table id="employeeList">
+          <tr>
+            <th>ID</th>
+            <th>Team</th>
+            <th>Tittle</th>
+            <th>Branch</th>
+            <th>Action</th>
+          </tr>
+      </td>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
